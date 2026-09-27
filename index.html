@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubai Metro Timings 2026: Daily Operating Hours, First & Last Trains Guide</title>
+    <meta name="description" content="Complete schedule and timetable breakdown of Dubai Metro operating hours, first and last train schedules, peak rush frequencies, and weekend transit times.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://your-domain.pages.dev/">
+
+    <!-- Favicon (اسی فولڈر کی favicon.png سے لوڈ ہوگا) -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+    <!-- Schema.org Article Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Dubai Metro Timings: Complete Operating Hours and First & Last Train Guide",
+      "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=1200&q=80",
+      "author": {
+        "@type": "Organization",
+        "name": "Dubai Metro Trains"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dubai Metro Trains",
+        "url": "https://dubaimetrotrains.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "logo.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://dubaimetrotrains.com/"
+      }
+    }
+    </script>
+
+    <style>
+        /* === dubaimetrotrains.com Brand Identity === */
+        :root {
+            --header-bg: #0b1120;
+            --header-border: #1e293b;
+            --accent-red: #dc2626;
+            --accent-green: #16a34a;
+            --body-bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-heading: #0f172a;
+            --text-body: #334155;
+            --text-muted: #64748b;
+            --border-light: #e2e8f0;
+            --footer-bg: #080d1a;
+            --footer-text: #94a3b8;
+            --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-stack);
+            background-color: var(--body-bg);
+            color: var(--text-body);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: var(--accent-red);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* === 1. HEADER (لوکل لوگو سپورٹ کے ساتھ) === */
+        .site-header {
+            background-color: var(--header-bg);
+            border-bottom: 1px solid var(--header-border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-inner {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 0 20px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .site-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .brand-logo-img {
+            height: 38px;
+            width: auto;
+            max-width: 180px;
+            object-fit: contain;
+            display: block;
+        }
+
+        .brand-fallback-text {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.4px;
+        }
+
+        .brand-tag {
+            background: var(--accent-red);
+            color: #ffffff;
+            padding: 2px 7px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #cbd5e1;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        /* === 2. HERO SECTION === */
+        .hero-section {
+            background: linear-gradient(180deg, #0b1120 0%, #1e293b 100%);
+            color: #ffffff;
+            padding: 60px 20px 70px;
+            border-bottom: 1px solid var(--header-border);
+        }
+
+        .hero-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(220, 38, 38, 0.15);
+            border: 1px solid rgba(220, 38, 38, 0.4);
+            color: #fca5a5;
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .hero-inner h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            line-height: 1.25;
+            color: #ffffff;
+            margin-bottom: 18px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero-inner p {
+            font-size: 1.15rem;
+            color: #cbd5e1;
+            max-width: 780px;
+            margin: 0 auto 35px;
+            line-height: 1.6;
+        }
+
+        .hero-image-wrapper {
+            position: relative;
+            max-width: 960px;
+            margin: 0 auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            border: 1px solid #334155;
+        }
+
+        .hero-image-wrapper img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .hero-image-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(180deg, transparent 0%, rgba(11, 17, 32, 0.95) 100%);
+            padding: 25px 20px 15px;
+            color: #cbd5e1;
+            font-size: 0.88rem;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        /* === 3. CONTENT AREA === */
+        .container {
+            max-width: 960px;
+            margin: -30px auto 40px;
+            padding: 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .meta-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #ffffff;
+            border: 1px solid var(--border-light);
+            padding: 7px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #475569;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+            margin-bottom: 25px;
+        }
+
+        .meta-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--accent-green);
+            border-radius: 50%;
+        }
+
+        .content-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            padding: 48px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--text-heading);
+            margin-top: 42px;
+            margin-bottom: 16px;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 8px;
+            letter-spacing: -0.3px;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1e293b;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 1.05rem;
+            color: var(--text-body);
+            margin-bottom: 22px;
+        }
+
+        ul, ol {
+            margin-left: 24px;
+            margin-bottom: 24px;
+        }
+
+        li {
+            font-size: 1.02rem;
+            margin-bottom: 10px;
+        }
+
+        .callout-box {
+            background-color: #f8fafc;
+            border-left: 4px solid var(--accent-red);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 30px 0;
+            border-top: 1px solid var(--border-light);
+            border-right: 1px solid var(--border-light);
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .callout-box p {
+            margin-bottom: 0;
+            font-size: 1rem;
+            color: #1e293b;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 28px 0;
+            border: 1px solid var(--border-light);
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 13px 18px;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: var(--text-heading);
+            font-weight: 700;
+            font-size: 0.88rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fbfcfe;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .badge-red {
+            background-color: #fee2e2;
+            color: #b91c1c;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.82rem;
+        }
+
+        .badge-green {
+            background-color: #dcfce7;
+            color: #15803d;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.82rem;
+        }
+
+        /* اینکر لنک اسٹائلنگ جو بالکل نیچرل لگے */
+        .backlink {
+            color: var(--accent-red);
+            font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        /* === 4. MULTI-COLUMN FOOTER === */
+        .site-footer {
+            background-color: var(--footer-bg);
+            color: var(--footer-text);
+            margin-top: 80px;
+            border-top: 1px solid #1e293b;
+            padding: 60px 20px 30px;
+        }
+
+        .footer-inner {
+            max-width: 1120px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2.2fr 1fr 1fr 1fr;
+            gap: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        .footer-brand h3 {
+            color: #ffffff;
+            font-size: 1.25rem;
+            margin-bottom: 14px;
+        }
+
+        .footer-brand p {
+            font-size: 0.92rem;
+            color: var(--footer-text);
+            line-height: 1.65;
+        }
+
+        .footer-col h4 {
+            color: #ffffff;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .footer-col li {
+            margin-bottom: 10px;
+        }
+
+        .footer-col a {
+            color: var(--footer-text);
+            font-size: 0.9rem;
+        }
+
+        .footer-col a:hover {
+            color: #ffffff;
+        }
+
+        .footer-bottom {
+            max-width: 1120px;
+            margin: 28px auto 0;
+            font-size: 0.83rem;
+            color: #64748b;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                height: auto;
+                padding: 15px;
+                gap: 12px;
+            }
+            .hero-inner h1 {
+                font-size: 1.9rem;
+            }
+            .hero-image-wrapper img {
+                height: 250px;
+            }
+            .content-card {
+                padding: 24px;
+            }
+            .footer-inner {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. HEADER (لوکل logo.png سپورٹ کے ساتھ) -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="https://dubaimetrotrains.com/" class="site-brand">
+                <img 
+                    src="logo.png" 
+                    alt="Dubai Metro Trains Logo" 
+                    class="brand-logo-img" 
+                    onerror="this.style.display='none'"
+                >
+                <span class="brand-fallback-text">Dubai Metro Trains</span>
+                <span class="brand-tag">Timetable Guide</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#weekly-hours">Timings</a></li>
+                    <li><a href="#first-last-trains">First & Last Trains</a></li>
+                    <li><a href="#frequencies">Headways</a></li>
+                    <li><a href="#holiday-schedules">Holidays</a></li>
+                    <li><a href="#airport-connectivity">DXB Airport</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION -->
+    <section class="hero-section">
+        <div class="hero-inner">
+            <div class="hero-badge">Timetable & Schedule Manual · 2026 Edition</div>
+            <h1>Dubai Metro Timings: Daily Schedules, First & Last Train Operations</h1>
+            <p>
+                The complete commuter reference guide to weekly service hours, peak train frequencies, late-night departure cutoffs, and airport transit schedules.
+            </p>
+
+            <div class="hero-image-wrapper">
+                <img 
+                    src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=1200&q=80" 
+                    alt="Dubai Metro train platform and illuminated track timetable"
+                    loading="lazy"
+                >
+                <div class="hero-image-caption">
+                    <span><strong>Synchronized Transit Operations:</strong> 99.8% on-time punctuality across Red and Green lines</span>
+                    <span>Source: RTA Transit Operations</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. MAIN ARTICLE (1,000+ Words with Natural Backlink) -->
+    <main class="container">
+        
+        <div class="meta-pill">
+            <span class="meta-dot"></span>
+            Verified Operational Timetables · Updated for Regular & Seasonal Cycles
+        </div>
+
+        <article class="content-card">
+            
+            <p>
+                Dubai's reputation as a bustling international commerce and tourism hub is sustained by one of the most reliable and punctual urban rail networks in the world. Engineered and monitored by the Roads and Transport Authority (RTA), the autonomous transit system operates on precise headways that ensure consistent movement throughout the morning rush, business hours, and late-night social commutes. Because platform gate closures and train frequencies change depending on the day of the week, commuters who verify the real-time <a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow" class="backlink">Dubai metro timings</a> before planning their travel avoid missed platform interchanges, unexpected station gate closures, and unnecessary taxi expenses.
+            </p>
+
+            <p>
+                Following the nationwide transition to a Monday-to-Friday working week in 2022, the RTA standardized its transit timetables to accommodate earlier Friday traffic flows and extended weekend operating windows. Knowing the exact opening times, final train departures, and peak headway intervals is vital for seamless daily journey planning.
+            </p>
+
+            <div class="callout-box">
+                <p>
+                    <strong>Essential Passenger Advice:</strong> Station entrance barriers typically stop admitting passengers approximately 5 to 10 minutes prior to the scheduled arrival of the final train. If you are catching the last train of the night from major transfer hubs like Union or BurJuman, aim to arrive on the platform at least 15 minutes before the posted departure cutoff.
+                </p>
+            </div>
+
+            <h2 id="weekly-hours">1. Standard Weekly Operating Hours Breakdown</h2>
+            <p>
+                The Dubai Metro operates seven days a week across both the Red Line and the Green Line. While the system operates on identical core opening hours across most weekdays, Friday evenings and Sunday mornings follow distinct schedules:
+            </p>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day of the Week</th>
+                            <th>First Train / Opening</th>
+                            <th>Last Train / Closing</th>
+                            <th>Service Window</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Monday to Thursday</strong></td>
+                            <td>05:00 AM</td>
+                            <td>12:00 Midnight</td>
+                            <td>19 Continuous Hours</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Friday</strong></td>
+                            <td>05:00 AM</td>
+                            <td>01:00 AM (Next Day)</td>
+                            <td>20 Extended Hours</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Saturday</strong></td>
+                            <td>05:00 AM</td>
+                            <td>12:00 Midnight</td>
+                            <td>19 Continuous Hours</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sunday</strong></td>
+                            <td>08:00 AM</td>
+                            <td>12:00 Midnight</td>
+                            <td>16 Continuous Hours</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                A widespread misconception among tourists is that Friday operations still start late in the morning. Since January 2022, Friday metro services commence promptly at <strong>5:00 AM</strong>, aligning with general weekday business routines across the emirate.
+            </p>
+
+            <h2 id="first-last-trains">2. Understanding First and Last Train Departure Logistics</h2>
+            <p>
+                A common source of confusion for new passengers is interpreting what "closing at midnight" actually means. Midnight does not mean that all train wheels stop moving at 12:00 AM; rather, it indicates the time when the final train departs from the line's terminal stations:
+            </p>
+            <ul>
+                <li><strong>Red Line Final Departures:</strong> The last continuous train heading from <em>Centrepoint</em> toward <em>Expo 2020</em> or <em>UAE Exchange</em> typically departs between 11:20 PM and 11:35 PM on regular weekdays, reaching outer stations around midnight or 12:30 AM.</li>
+                <li><strong>Green Line Final Departures:</strong> Trains leaving <em>Etisalat by e&</em> toward <em>Creek</em> station depart their initial platform around 11:30 PM, arriving at terminus facilities before the stroke of midnight.</li>
+                <li><strong>Interchange Transfer Cutoffs:</strong> At <em>Union</em> and <em>BurJuman</em>, the final connecting trains crossing between the Red and Green lines normally arrive between 11:45 PM and 12:10 AM on standard weekdays (and up to 1:15 AM on Friday nights).</li>
+            </ul>
+
+            <h2 id="frequencies">3. Train Headways: Peak vs. Off-Peak Frequencies</h2>
+            <p>
+                The automated signaling system dynamically modulates train dispatch intervals according to passenger demand. You do not need to memorize a rigid timetable during the daytime, as trains operate on tight headway intervals:
+            </p>
+            <ul>
+                <li><strong>Morning Peak Hours (06:30 AM – 09:00 AM):</strong> Trains arrive on platforms every <strong>2.5 to 3 minutes</strong> along the central Red Line trunk, ensuring swift crowd clearance along Sheikh Zayed Road.</li>
+                <li><strong>Evening Rush Hours (05:00 PM – 08:00 PM):</strong> Dispatch intervals remain between <strong>2.5 and 3.5 minutes</strong> to accommodate corporate departures heading northbound toward Deira, Sharjah borders, and airport corridors.</li>
+                <li><strong>Off-Peak Daytime Windows:</strong> Mid-day services (10:00 AM to 04:00 PM) generally run every <strong>4 to 6 minutes</strong>.</li>
+                <li><strong>Late Evening & Weekend Evenings:</strong> After 10:00 PM and on Sunday mornings, intervals widen slightly to between <strong>6 and 8 minutes</strong>.</li>
+            </ul>
+
+            <h2 id="airport-connectivity">4. Catching Flights: DXB Airport Metro Timings</h2>
+            <p>
+                Dubai International Airport terminals are seamlessly integrated into the Red Line via dedicated concourse stations at <strong>Terminal 1 (R14)</strong> and <strong>Terminal 3 (R13)</strong>. For passengers organizing flight arrivals or departures, keeping schedule boundaries in mind is essential:
+            </p>
+            <ol>
+                <li><strong>Early Morning Departures:</strong> If you have an international flight boarding before 07:00 AM on weekdays or before 10:00 AM on Sundays, verify whether the first metro at 05:00 AM (08:00 AM on Sundays) provides sufficient time for baggage check-in and customs clearance.</li>
+                <li><strong>Red-Eye Flight Arrivals:</strong> International flights landing past 11:30 PM may touch down after the final southbound metro train has departed the airport concourse. In such instances, travelers should plan to utilize official RTA airport taxis or the 24-hour public bus network.</li>
+            </ol>
+
+            <h2 id="holiday-schedules">5. Extended Operating Hours During Holidays & Events</h2>
+            <p>
+                During significant public celebrations and religious observations, the RTA routinely updates and extends operating hours to prevent vehicular traffic gridlock:
+            </p>
+            <ul>
+                <li><strong>New Year's Eve (December 31 – January 1):</strong> The metro typically operates <strong>non-stop for 40 to 48 consecutive hours</strong>, providing continuous round-the-clock connectivity between Downtown Burj Khalifa, Dubai Marina, and outer park-and-ride facilities.</li>
+                <li><strong>Eid Al Fitr & Eid Al Adha:</strong> Operating hours are frequently extended to run until 02:00 AM or 03:00 AM across all holiday evenings.</li>
+                <li><strong>The Holy Month of Ramadan:</strong> Monday to Saturday operational timings generally remain consistent, while Sunday schedules may expand slightly to accommodate late-night family gatherings and Suhoor dining across cultural quarters.</li>
+            </ul>
+
+            <h2>Summary</h2>
+            <p>
+                Mastering Dubai's urban rail network relies heavily on schedule awareness. By remembering the 5:00 AM weekday starts, the 8:00 AM Sunday morning schedule, and the extended 1:00 AM Friday night operating window, both residents and visitors can navigate the emirate with speed, comfort, and peace of mind.
+            </p>
+        </article>
+    </main>
+
+    <!-- 4. MULTI-COLUMN FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <h3>Dubai Metro Trains</h3>
+                <p>
+                    An independent digital reference directory publishing verified timetable data, station guides, route maps, and commuter transit intelligence across Dubai.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Plan Your Ride</h4>
+                <ul>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">Timetable & Hours</a></li>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">Dubai Metro Map</a></li>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">Nol Fares & Zones</a></li>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">Station Directory</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Network Lines</h4>
+                <ul>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">Red Line Timetable</a></li>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">Green Line Hours</a></li>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">DXB Airport Route</a></li>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">Dubai Tram Timing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>About Site</h4>
+                <ul>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">Editorial Team</a></li>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">Transit Standards</a></li>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">Privacy Terms</a></li>
+                    <li><a href="https://dubaimetrotrains.com/" target="_blank" rel="dofollow">Contact Portal</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                Dubai Metro Trains is an independent, unofficial informational resource. Not affiliated with or endorsed by the Roads and Transport Authority (RTA) or the Government of Dubai.<br>
+                &copy; 2026 Dubai Metro Trains. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
